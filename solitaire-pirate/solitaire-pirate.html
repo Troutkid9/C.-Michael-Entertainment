@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<!--<meta name="viewport" content="width=1024,height=768" />-->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="Keywords" lang="fr" content="solitaire,klondike,warpklondike,solitairehd,javascript,js,warpdesign,css3,transitions,html5,webkit,mozilla,iphone,ipad" />
+	<meta name="Author" lang="fr" content="Nicolas Ramz" />
+  	
+	<title>Solitaire By C. Michael Entertainments</title>
+	
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
+	<link rel="stylesheet" href="css/jquery.gritter.css" type="text/css" />
+	<link rel="stylesheet" href="css/transitions.css" type="text/css" />
+
+	<script src="https://code.jquery.com/pep/0.3.0/pep.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.gritter.min.js"></script>
+	<script type="text/javascript" src="js/Lawnchair.js"></script>
+	<script type="text/javascript" src="js/adaptors/LawnchairAdaptorHelpers.js"></script>
+	<script type="text/javascript" src="js/adaptors/DOMStorageAdaptor.js"></script>
+
+	<script type="text/javascript" src="js/Console.js"></script>
+	<script type="text/javascript" src="js/ConfigurationManager.js"></script>
+	
+	<!-- DB stuff -->
+	<script type="text/javascript" src="js/DBManager.js"></script>
+	<!-- /DB stuff -->
+
+	<script type="text/javascript" src="js/SoundManager.js"></script>
+	<script type="text/javascript" src="js/TimerManager.js"></script>
+	<script type="text/javascript" src="js/EventsManager.js"></script>
+	<script type="text/javascript" src="js/Card.js"></script>
+	<script type="text/javascript" src="js/Deck.js"></script>
+	<script type="text/javascript" src="js/Misc.js"></script>
+	<script type="text/javascript" src="js/Particles.js"></script>
+	<script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			WarpKlondikeMain.init();
+			$('.github-fork-ribbon-wrapper').bind('touchstart', function() {
+				document.location.href = $(this).find('a').attr('href');
+			});	
+		});
+	</script>
+</head>
+<body class="hd" touch-action="none">
+	<div id="pause">
+		<p>Pause</p>
+	</div>
+
+	<div id="playground" class="light">
+		<!-- overlay Pause element -->
+	</div>
+
+	<div id="statusPanel">
+		<div class="score">0 Points</div><div class="time">00 : 00</div><div class="startAgain">Restart</div><div class="undo">Undo</div>
+	</div>
+
+	<div id="shadow"></div>
+	<div id="splash"><div class="content"></div></div>
+	<script type="text/javascript"> 
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script> 
+			
+		<script type="text/javascript"> 
+			try 
+			{
+				var pageTracker = _gat._getTracker("UA-7328965-1");
+				pageTracker._trackPageview();
+			} 
+			catch(err) {}
+		</script> 
+</body>
+</html>
