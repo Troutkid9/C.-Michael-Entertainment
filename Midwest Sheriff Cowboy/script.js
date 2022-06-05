@@ -132,7 +132,7 @@
           break;
         case 2:
           this.$messagePS.html(
-            "Name's Goldie Gaia. She is sneaky and is a darn good shot, and aint done fight'n until she's sent you to the bone yard with your boots on."
+            "Name's Gloria Anne. She is sneaky and is a darn good shot, and aint done fight'n until she's sent you to the bone yard with your boots on."
           );
           break;
         default:
