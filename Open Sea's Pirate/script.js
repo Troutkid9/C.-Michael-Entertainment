@@ -127,17 +127,17 @@
       switch (this.level) {
         case 3:
           this.$messagePS.html(
-            "Hitch Ravish craves shoot'n fellas like you. He's slick and smooth on the draw! Watch out!"
+            "First mate Jack Riley, he be the one ye gotta watch out for, he also be the one who started the mutiny."
           );
           break;
         case 2:
           this.$messagePS.html(
-            "Name's Goldie Gaia. She is sneaky and is a darn good shot, and aint done fight'n until she's sent you to the bone yard with your boots on."
+            "Her name is Bethany Smith. She's sneaky and wild, and a darn good shot. Don't let her fool ye with her feminine charms if ye get what I mean."
           );
           break;
         default:
           this.$messagePS.html(
-            "Billy Boulder, also known as Billy the Big, ain't no monster of a man to monkey around with."
+            "Johnathan Wilson, ain't no pirate to mess with with, especiall when he's got rum in one hand and his shotgun in the other."
           );
       }
       return this.$duelButton.removeClass("is-hidden");
@@ -179,26 +179,26 @@
       switch (this.noHonor) {
         case 1:
           noHonorMessage =
-            "You don't want to be too sudden while shoot'n gives them an open target yah hear? They gotta draw first, dont ya get impatient!";
+            "You don't want to be too sudden while shoot'n gives them an open target ye hear? They gotta draw first, dont ya get impatient!";
           this.noHonor++;
           break;
         case 2:
           noHonorMessage =
-            "You're sure playin' with luck. Yuh best go gamble at the saloon if ya wanna see how lucky you can be.";
+            "You sure be playin' with luck. Ye best go gamble at the saloon if ya wanna see how lucky you can be.";
           this.noHonor++;
           break;
         default:
           random = Math.floor(Math.random() * (4 - 1)) + 1;
           switch (random) {
             case 1:
-              noHonorMessage = "Mixin' it with some chance this time o' day?";
+              noHonorMessage = "Play'n with some chance this time o' day eh?";
               break;
             case 2:
               noHonorMessage = "Happened kinda sudden, didn't it?";
               break;
             default:
               noHonorMessage =
-                "What the devil! What fer kind of a thing shows no honour! You ain't no man!";
+                "What the devil! What fer kind of a thing shows no honour! You ain't no man! To Davy Jone's Locker with ye!";
           }
       }
       return this.$resultPS.html(noHonorMessage);
