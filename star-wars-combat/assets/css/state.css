@@ -1,0 +1,165 @@
+.border__luke {
+    border-color: blue;
+}
+
+.border__yoda {
+    border-color: darkgreen;
+}
+
+.border__obiwan {
+    border-color: cornflowerblue;
+}
+
+.border__vader {
+    border-color: red;
+}
+
+.border__Ahsoka {
+    border-color: green;
+}
+
+.border__duku {
+    border-color: red;
+}
+
+.border__Craig {
+    border-color: gold;
+}
+
+.border__windu {
+    border-color: purple;
+}
+
+.border__rex {
+    border-color: darkblue;
+}
+
+.border__clemence {
+    border-color: pink;
+}
+
+.border__anakin {
+    border-color: darkblue;
+}
+
+.border__padme {
+    border-color: rgb(255, 227, 227);
+}
+
+.border__maul {
+    border-color: rgb(175, 22, 22);
+}
+
+.border__han {
+    border-color: rgb(255, 226, 62);
+}
+
+.border__kylo {
+    border-color: rgb(68, 14, 23);
+}
+
+.border__revan {
+    border-color: rgb(168, 42, 38);
+}
+
+.border__palpatine {
+    border-color: rgb(54, 2, 11);
+}
+
+
+.background__luke {
+    background-color: blue;
+}
+
+.background__yoda {
+    background-color: darkgreen;
+}
+
+.background__obiwan {
+    background-color: cornflowerblue;
+}
+
+.background__vader {
+    background-color: red;
+}
+
+.background__Ahsoka {
+    background-color: green;
+}
+
+.background__duku {
+    background-color: red;
+}
+
+.background__rex {
+    background-color: darkblue;
+}
+
+.background__windu {
+    background-color: purple;
+}
+
+.background__clemence {
+    background-color: pink;
+}
+
+.background__Craig {
+    background-color: rgb(20, 20, 167)
+}
+
+.background__anakin {
+    background-color: darkblue;
+}
+
+.background__padme {
+    background-color: rgb(255, 227, 227);
+}
+
+.background__maul {
+    background-color: rgb(175, 22, 22);
+}
+
+.background__han {
+    background-color: rgb(255, 226, 62);
+}
+
+.background__kylo {
+    background-color: rgb(68, 14, 23);
+}
+
+.background__revan {
+    background-color: rgb(168, 42, 38);
+}
+
+.background__palpatine {
+    background-color: rgb(54, 2, 11);
+}
+
+
+
+
+
+.text__luke {
+    color: blue;
+}
+
+.text__yoda {
+    color: darkgreen;
+}
+
+.text__obiwan {
+    color: cornflowerblue;
+}
+
+.text__vader {
+    color: red;
+}
+
+
+
+
+
+
+.vertical-center {
+    vertical-align: center;
+}
