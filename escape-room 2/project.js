@@ -702,7 +702,7 @@ function vidpart1(){
     if(tvOff === 0 && currentWall==1){
       if(Begin===0){
         //starts clock and timer
-        countdown( "countdown", 1, 0, 0);// 1 hour, 0 minutes 0 seconds
+        countdown( "countdown", 15, 0);// 15 minutes 0 seconds
         //document.getElementById('clock').play();
         Begin++;
       }
